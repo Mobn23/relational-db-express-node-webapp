@@ -1,7 +1,7 @@
 /**
  * A collection of useful functions.
  *
- * @author Mitt Namn
+ * @author Mobn23
  */
 "use strict";
 

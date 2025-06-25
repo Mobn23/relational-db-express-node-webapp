@@ -1,7 +1,7 @@
 /**
  * A test program to show off async and await.
  *
- * @author Mitt Namn
+ * @author Mobn23
  */
 "use strict";
 

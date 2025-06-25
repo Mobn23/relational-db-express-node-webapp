@@ -1,7 +1,7 @@
 /**
  * A simple test program importing a class Dice.
  *
- * @author Mitt Namn
+ * @author Mobn23
  */
 "use strict";
 

@@ -1,7 +1,7 @@
 /**
  * A simple test program.
  *
- * @author Mitt Namn
+ * @author Mobn23
  */
 "use strict";
 
