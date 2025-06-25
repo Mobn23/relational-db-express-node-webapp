@@ -1,0 +1,31 @@
+<%- include("../partials/header.ejs") %>
+
+<h2><%= message %></h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Customer Name</th>
+        <th>Customer id</th>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quantity ordered</th>
+        <th>Date</th>
+        <th>status</th>
+    </tr>
+    <% for (const data of orderData) { %>
+        <tr>
+            <td><%= data.order_id %></td>
+            <td><%= data.kund_namn %></td>
+            <td><%= data.costumer_id %></td>
+            <td><%= data.produkt_namn %></td>
+            <td><%= data.pris %></td>
+            <td><%= data.antal_produkter %></td>
+            <td><%= data.created_at %></td>
+            <td><%= data.order_status %></td>
+        </tr>
+    <% } %>
+</table>
+<a href="/customer" class="btn btn-success"><button type="submit">Create another order</button></a>
+
+<%- include("../partials/footer.ejs") %>

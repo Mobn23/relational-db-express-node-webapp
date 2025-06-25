@@ -1,0 +1,89 @@
+20240321205029
+.
+total 56
+drwxr-xr-x 3 mobn mobn  4096 Mar 21 15:47 .dbwebb
+-rw-r--r-- 1 mobn mobn 11425 Mar 21 15:47 INSTRUKTION.md
+-rw-r--r-- 1 mobn mobn  3926 Mar 21 15:47 README_FIRST.md
+-rw-r--r-- 1 mobn mobn   944 Mar 21 20:12 cli.js
+drwxr-xr-x 3 mobn mobn  4096 Mar 21 14:32 config
+drwxr-xr-x 2 mobn mobn  4096 Mar 21 20:24 doc
+-rw-r--r-- 1 mobn mobn   509 Mar 21 19:01 index.js
+drwxr-xr-x 3 mobn mobn  4096 Mar 21 14:32 public
+drwxr-xr-x 2 mobn mobn  4096 Mar 21 14:32 routes
+drwxr-xr-x 3 mobn mobn  4096 Mar 21 14:32 sql
+drwxr-xr-x 2 mobn mobn  4096 Mar 21 19:04 src
+drwxr-xr-x 4 mobn mobn  4096 Mar 21 19:03 views
+./src
+total 8
+-rw-r--r-- 1 mobn mobn 421 Mar 21 20:00 exam.js
+-rw-r--r-- 1 mobn mobn 803 Mar 21 20:12 terminal.js
+./routes
+total 4
+-rw-r--r-- 1 mobn mobn 567 Mar 21 19:51 indexRoutes.js
+./sql
+total 4
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 20:27 exam
+./sql/exam
+total 60
+-rw-r--r-- 1 mobn mobn  213 Mar 21 14:32 backup.bash
+-rw-r--r-- 1 mobn mobn  792 Mar 21 18:58 ddl.sql
+-rw-r--r-- 1 mobn mobn  178 Mar 21 15:53 developer.csv
+-rw-r--r-- 1 mobn mobn  225 Mar 21 18:20 dml.sql
+-rw-r--r-- 1 mobn mobn 9037 Mar 21 20:28 exam.sql
+-rw-r--r-- 1 mobn mobn  753 Mar 21 18:05 insert.sql
+-rw-r--r-- 1 mobn mobn 1455 Mar 21 15:53 product.csv
+-rw-r--r-- 1 mobn mobn   80 Mar 21 15:53 product2type.csv
+-rw-r--r-- 1 mobn mobn   53 Mar 21 14:32 reset.sql
+-rw-r--r-- 1 mobn mobn   62 Mar 21 16:53 setup.sql
+-rw-r--r-- 1 mobn mobn  436 Mar 21 15:53 type.csv
+-rw-r--r-- 1 mobn mobn  478 Mar 21 14:32 verify.bash
+-rw-r--r-- 1 mobn mobn  891 Mar 21 20:21 wsp.sql
+./doc
+total 64
+-rw-r--r-- 1 mobn mobn   115 Mar 21 20:23 er (1).pdf:Zone.Identifier
+-rw-r--r-- 1 mobn mobn 61177 Mar 21 20:23 er.pdf
+./public
+total 40
+-rw-r--r-- 1 mobn mobn 32988 Mar 21 14:32 favicon.ico
+drwxr-xr-x 2 mobn mobn  4096 Mar 21 14:32 style
+./public/style
+total 4
+-rw-r--r-- 1 mobn mobn 1375 Mar 21 14:32 style.css
+./views
+total 8
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 19:44 exam
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 14:32 partials
+./views/partials
+total 8
+-rw-r--r-- 1 mobn mobn  16 Mar 21 14:32 footer.ejs
+-rw-r--r-- 1 mobn mobn 466 Mar 21 19:48 header.ejs
+./views/exam
+total 8
+-rw-r--r-- 1 mobn mobn 109 Mar 21 14:32 index.ejs
+-rw-r--r-- 1 mobn mobn 768 Mar 21 20:41 visa.ejs
+./config
+total 4
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 14:32 db
+./config/db
+total 4
+-rw-r--r-- 1 mobn mobn 159 Mar 21 19:55 exam.json
+./.dbwebb
+total 4
+drwxr-xr-x 4 mobn mobn 4096 Mar 21 15:47 exam
+./.dbwebb/exam
+total 12
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 20:50 file
+-rw-r--r-- 1 mobn mobn   36 Mar 21 15:47 id.md
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 20:50 receipt
+./.dbwebb/exam/receipt
+total 16
+-rw-r--r-- 1 mobn mobn 581 Mar 21 15:47 20240321144740.md
+-rw-r--r-- 1 mobn mobn 581 Mar 21 16:34 20240321163444.md
+-rw-r--r-- 1 mobn mobn 581 Mar 21 20:43 20240321204333.md
+-rw-r--r-- 1 mobn mobn 581 Mar 21 20:50 20240321205029.md
+./.dbwebb/exam/file
+total 16
+-rw-r--r-- 1 mobn mobn 2750 Mar 21 15:47 20240321154740.txt
+-rw-r--r-- 1 mobn mobn 3084 Mar 21 16:34 20240321163444.txt
+-rw-r--r-- 1 mobn mobn 3025 Mar 21 20:43 20240321204333.txt
+-rw-r--r-- 1 mobn mobn 2894 Mar 21 20:50 20240321205029.txt

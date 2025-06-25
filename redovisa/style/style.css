@@ -1,0 +1,64 @@
+body {
+    margin: 8px auto;
+    background: #fff;
+    width: 700px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.home-img{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.home-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 144, 251);
+    border: 3px solid#070707;
+    border-radius: 15px;
+    max-width: 50%;
+    margin: auto;
+    transition: transform 0.4s ease;
+
+    a{
+        padding: 10px;
+        content: "\f007";
+        font-family: 'Font Awesome 5 Brands';
+        text-decoration: none;
+        color:black
+    }
+
+    :hover {
+        transform: scale(1.1);
+        color: #e1e1e1d7;
+    }
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+
+    img{
+        padding: 20px;
+        box-sizing: border-box;
+        width: 1417px;
+        max-height: 100%;
+    }
+}
+
+.footer{
+    a{
+        color: rgb(0, 0, 0);
+    }
+}

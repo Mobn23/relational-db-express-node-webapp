@@ -1,0 +1,8 @@
+{
+    "user":     "dbadm",
+    "password": "P@ssw0rd",
+    "host":     "localhost",
+    "database": "exam",
+    "port": 3306,
+    "multipleStatements": true
+}

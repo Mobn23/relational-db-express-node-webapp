@@ -1,0 +1,30 @@
+<%- include("../partials/header.ejs") %>
+
+<h1>Product Categories:</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Product Name</th>
+        <th>Nick</th>
+        <th>Debate</th>
+        <th>Year</th>
+        <th>Developer ID</th>
+        <th>Type Name</th>
+        <th>Developer Name</th>
+    </tr>
+    <% for (const data of info) { %>
+        <tr>
+            <td><%= data.id %></td>
+            <td><a href="<%= data.product_url %>"><%= data.produkt_namn %></a></td>
+            <td><%= data.nick %></td>
+            <td><%= data.debate %></td>
+            <td><%= data.year %></td>
+            <td><%= data.developer_id %></td>
+            <td><a href="<%= data.type_url %>"><%= data.type_name %></a></td>
+            <td><%= data.developer_name %></td>
+        </tr>
+    <% } %>
+</table>
+
+<%- include("../partials/footer.ejs") %>

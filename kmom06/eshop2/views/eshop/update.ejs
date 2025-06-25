@@ -1,0 +1,16 @@
+<%- include("../partials/header.ejs") %>
+
+<form method="post" class="form" action="/product">
+    <label>ID</label>
+    <input type="text" name="p_id" value="<%= product[0].produkt_id %>" readonly><br>
+    <label>Name</label>
+    <input type="text" name="p_name" value="<%= product[0].namn %>"><br>
+    <label>Price</label>
+    <input type="number" name="p_price" value="<%= product[0].pris %>"><br>
+    <label>Description</label>
+    <input type="text" name="p_description" value="<%= product[0].beskrivning %>"><br>
+
+    <input type="submit" value="update">
+</form>
+
+<%- include("../partials/footer.ejs") %>

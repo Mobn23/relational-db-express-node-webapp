@@ -1,0 +1,26 @@
+20240321005942
+.
+total 84
+drwxr-xr-x 3 mobn mobn  4096 Mar 21 00:59 .dbwebb
+-rw-r--r-- 1 mobn mobn 10871 Mar 21 00:59 INSTRUKTION_2021-03-24_hund.md
+-rw-r--r-- 1 mobn mobn 11214 Mar 21 00:59 INSTRUKTION_2021-05-28_vaccin.md
+-rw-r--r-- 1 mobn mobn 12560 Mar 21 00:59 INSTRUKTION_2022-03-24_fiskodling.md
+-rw-r--r-- 1 mobn mobn 10782 Mar 21 00:59 INSTRUKTION_2022-05-27_formogenhet.md
+-rw-r--r-- 1 mobn mobn 10938 Mar 21 00:59 INSTRUKTION_2023-03-23_el.md
+-rw-r--r-- 1 mobn mobn 10639 Mar 21 00:59 INSTRUKTION_2023-05-26_rymd.md
+-rw-r--r-- 1 mobn mobn  3926 Mar 21 00:59 README_FIRST.md
+-rw-r--r-- 1 mobn mobn     0 Mar 21 00:54 dbwebb-exam.txt
+./.dbwebb
+total 4
+drwxr-xr-x 4 mobn mobn 4096 Mar 21 00:59 exam
+./.dbwebb/exam
+total 12
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 00:59 file
+-rw-r--r-- 1 mobn mobn   36 Mar 21 00:59 id.md
+drwxr-xr-x 2 mobn mobn 4096 Mar 21 00:59 receipt
+./.dbwebb/exam/receipt
+total 4
+-rw-r--r-- 1 mobn mobn 587 Mar 21 00:59 20240320235941.md
+./.dbwebb/exam/file
+total 4
+-rw-r--r-- 1 mobn mobn 982 Mar 21 00:59 20240321005942.txt

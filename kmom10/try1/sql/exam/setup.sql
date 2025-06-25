@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS exam;
+CREATE DATABASE exam;
+
+USE exam;

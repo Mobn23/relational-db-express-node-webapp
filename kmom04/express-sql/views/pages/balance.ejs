@@ -1,0 +1,19 @@
+<%- include("../partials/header.ejs") %>
+
+<h1>Balance: </h1>
+<table id="accounts">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Balance</th>
+    </tr>
+    <% for (const account of balance) { %>
+        <tr>
+            <td><%= account.id %></td>
+            <td><%= account.name %></td>
+            <td><%= account.balance %></td>
+        </tr>
+    <% } %>
+</table>
+
+<%- include("../partials/footer.ejs") %>

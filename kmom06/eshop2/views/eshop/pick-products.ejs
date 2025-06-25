@@ -1,0 +1,37 @@
+<%- include("../partials/header.ejs") %>
+
+<h1>Order status: <%= allProductsData[0].order_status %></h1>
+<h1>Customer name: <%= costumerName %></h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Category</th>
+    </tr>
+    <% for (const data of allProductsData) { %>
+        <tr>
+            <td><%= data.produkt_id %></td>
+            <td><%= data.produkt_namn %></td>
+            <td><%= data.pris %></td>
+            <td><%= data.antal_produkter %></td>
+            <td><%= data.kategori_namn %></td>
+            <td>
+                <form method="POST" action="/add-product-to-order/<%= costumerId %>/<%= data.produkt_id %>">
+                    <input type="hidden" name="customer_name" value="<%= costumerName %>" placeholder="Customer Name" readonly>
+                    <select name="select_quantity" value="<%= data.antal_produkter %>">
+                        <% for (let i = 1; i <= data.antal_produkter; i++) { %>
+                            <option value="<%= i %>"><%= i %></option>
+                        <% } %>
+                    </select>
+            </td>
+            <td>
+                    <button type="submit">lägg till</button>
+                </form>
+        </tr>
+    <% } %>
+</table>
+
+<%- include("../partials/footer.ejs") %>

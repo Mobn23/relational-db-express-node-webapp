@@ -1,0 +1,10 @@
+dbwebb exam ls
+dbwebb exam checkout try1
+mohamed bnshi
+mobn23@student.bth.se
+ls -l
+dbwebb validate try1
+dbwebb exam receipt try1
+
+finish the exam:
+dbwebb exam seal try1

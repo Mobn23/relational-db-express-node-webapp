@@ -1,0 +1,3 @@
+--
+-- Skapa filen dml.sql och lägg där den SQL kod du gör för att testa din databas, till exempel SELECT och CALL.
+--

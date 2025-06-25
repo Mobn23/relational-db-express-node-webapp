@@ -1,0 +1,19 @@
+<%- include("../partials/header.ejs") %>
+
+<h1>Product Categories:</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Category</th>
+    </tr>
+    <% for (const data of categories) { %>
+        <tr>
+            <td><%= data.kategori_id %></td>
+            <td><%= data.namn %></td>
+        </tr>
+    <% } %>
+</table>
+
+
+<%- include("../partials/footer.ejs") %>

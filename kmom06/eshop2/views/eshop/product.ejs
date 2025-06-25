@@ -1,0 +1,28 @@
+<%- include("../partials/header.ejs") %>
+
+<h1>Product's info:</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Category</th>
+    </tr>
+    <% for (const data of products) { %>
+        <tr>
+            <td><%= data.produkt_id %></td>
+            <td><%= data.produkt_namn %></td>
+            <td><%= data.pris %></td>
+            <td><%= data.antal_produkter %></td>
+            <td><%= data.kategori_namn %></td>
+            <td>
+                <a href="/update/<%= data.produkt_namn %>"> Update</a> |
+                <a href="/delete/<%= data.produkt_namn %>"> Delete</a>
+            </td>
+        </tr>
+    <% } %>
+</table>
+
+<%- include("../partials/footer.ejs") %>
