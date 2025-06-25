@@ -2,6 +2,8 @@
 
 This project was developed as part of the Database technologies for web course at Blekinge Institute of Technology (BTH). It covers comprehensive database concepts including SQL, database design, web applications with database integration, and database programming.
 
+🔹 Starter code from the [BTH dbwebb repository](https://github.com/dbwebb-se/databas) (open source).
+
 ## 📚 Course Overview
 
 The course focuses on:
