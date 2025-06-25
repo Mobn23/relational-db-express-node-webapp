@@ -2,7 +2,7 @@
  * Create a connection to the database and execute
  * a query without actually using the database.
  * query()(Brings data from database)
- * @author mo bn
+ * @author Mobn23
  */
 "use strict";
 

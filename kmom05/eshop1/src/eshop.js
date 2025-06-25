@@ -1,6 +1,6 @@
 /**
  * The functions module.
- * @author mo bn
+ * @author Mobn23
  */
 
 "use strict";

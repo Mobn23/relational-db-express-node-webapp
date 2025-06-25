@@ -1,6 +1,6 @@
 /**
  * This module will contain the functions and database connections for between.js and search.js.
- * @author mo bn
+ * @author Mobn23
  */
 
 "use strict";
